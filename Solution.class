@@ -8,8 +8,7 @@ class Solution {
             } else {
                 result = false;
                 break;
-            }
-                
+            }                
         }
         return result;
     }
