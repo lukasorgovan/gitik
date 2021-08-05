@@ -1,2 +1,3 @@
-skusam konflikt nebude 
+skusam pullreq
+ 
 
