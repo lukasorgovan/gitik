@@ -1,0 +1,18 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+        String stringValueOfX = String.valueOf(x);
+        int even = 0;
+        //test odd/even length
+        if(stringValueOfX.length() % 2 != 0){
+            even = 1;
+        }
+        //if odd legnth, than skip middle pozition
+        StringBuilder string1 = new StringBuilder(stringValueOfX.substring((stringValueOfX.length() / 2) + even, stringValueOfX.length()));
+        StringBuilder string2 = new StringBuilder(stringValueOfX.substring(0,stringValueOfX.length() / 2));
+        string1.reverse();
+        if(string1.toString().equals(string2.toString())){
+            return true;
+        }
+        return false;
+    }
+}
