@@ -97,8 +97,11 @@ body {
   margin-left: 10px;
 }
 .top-left-nav ul li a {
-  color: #00a82d;
+  color: #000000;
 }
+/* .top-left-nav ul li:last-child {
+  color: #00a82d;
+} */
 .btn-top-right {
   display: inline-block;
   height: 40px;
@@ -108,7 +111,6 @@ body {
   text-align: center;
   text-decoration: none;
   letter-spacing: 0.5px;
-  color: #00a82d;
   border-radius: 3px;
   border: 2px solid #00a82d;
   padding: 0 10px;
